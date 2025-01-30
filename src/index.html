@@ -1,11 +1,115 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Tailwind CSS -->
     <link href="./css/output.css" rel="stylesheet" />
   </head>
   <body>
-    <h1 class="text-3xl font-bold underline">Hello world!</h1>
+    <!-- HEADER SECTION-->
+    <header
+      class="bg-black py-6 lg:py-12 text-cineverse-grey font-gemunu uppercase"
+    >
+      <!-- HEADER CONTAINER -->
+      <div
+        class="bg-rose-500 container flex items-center justify-between space-x-8 lg:space-x-16"
+      >
+        <!-- LOGO -->
+        <a
+          href="#"
+          class="pl-4 md:pl-0 text-4xl lg:text-6xl font-bold text-transparent bg-gradient-to-r bg-clip-text from-cineverse-light-blue to-cineverse-grey"
+          >CINEVERSE</a
+        >
+
+        <!-- MOBILE MENU -->
+        <div class="block md:hidden pr-4">
+          <div class="space-y-1 cursor-pointer">
+            <div class="bg-cineverse-grey w-8 h-1 rounded-full"></div>
+            <div class="bg-cineverse-grey w-8 h-1 rounded-full"></div>
+            <div class="bg-cineverse-grey w-8 h-1 rounded-full"></div>
+          </div>
+        </div>
+
+        <!-- NAVIGATION -->
+        <nav class="bg-green-700 hidden md:flex justify-between flex-1">
+          <!-- MENU -->
+          <div class="flex items-center lg:text-lg space-x-4 lg:space-x-8">
+            <a
+              href="#"
+              class="hover:text-cineverse-melon transition-all duration-300"
+              >Movies</a
+            >
+            <a
+              href="#"
+              class="hover:text-cineverse-melon transition-all duration-300"
+              >Celebrities</a
+            >
+            <a
+              href="#"
+              class="hover:text-cineverse-melon transition-all duration-300"
+              >Blog</a
+            >
+            <a
+              href="#"
+              class="hover:text-cineverse-melon transition-all duration-300"
+              >News</a
+            >
+            <a
+              href="#"
+              class="hover:text-cineverse-melon transition-all duration-300"
+              >About</a
+            >
+          </div>
+          <!-- LOGIN AREA -->
+          <div class="flex items-center space-x-4 lg:space-x-8">
+            <!-- SEARC AREA -->
+            <form>
+              <div
+                class="border-r px-4 py-1 mx-4 border-cineverse-light-blue group"
+              >
+                <input
+                  type="text"
+                  class="opacity-0 group-hover:opacity-100 bg-transparent border-b border-cineverse-light-blue outline-none w-24 lg:w-44 transition-all duration-300"
+                />
+                <button
+                  class="-ml-4 group-hover:ml-0 transition-all duration-300"
+                >
+                  <i
+                    class="fas fa-search group-hover:text-cineverse-light-blue transition-all duration-300"
+                  ></i>
+                </button>
+              </div>
+            </form>
+            <!-- SIGNUP AREA -->
+            <div class="flex items-center space-x-4 lg:space-x-8 lg:text-lg">
+              <a href="#">Login</a>
+              <a
+                href="#"
+                class="bg-cineverse-light-blue rounded-sm px-3 py-1 hover:bg-cineverse-dark-blue transition-all duration-300 whitespace-nowrap"
+                >Sign Up</a
+              >
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
   </body>
 </html>
