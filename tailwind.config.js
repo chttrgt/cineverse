@@ -26,6 +26,9 @@ module.exports = {
         "cineverse-light-blue": "#45aaf2",
         "cineverse-dark-blue": "#2e9add",
       },
+      spacing: {
+        128: "32rem",
+      },
     },
   },
   plugins: [
