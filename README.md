@@ -1,6 +1,8 @@
 # 🎬 CineVerse  
 
-**CineVerse**, tamamen **HTML, Tailwind CSS ve JavaScript** kullanılarak oluşturulmuş modern bir film sitesi projesidir. Bu proje, Tailwind CSS becerilerimi geliştirmek ve pratik yapmak amacıyla geliştirilmiştir.  
+**CineVerse**, tamamen **HTML, Tailwind CSS ve JavaScript** kullanılarak oluşturulmuş modern bir film sitesi projesidir. Bu proje, eğitim amaçlı olarak, **Tailwind CSS becerimi geliştirmek** ve pratik yapmak amacıyla geliştirilmiştir.  
+
+📌 Bu proje, youtube'da **[Arin Yazılım](https://www.youtube.com/playlist?list=PL-Hkw4CrSVq-Oc898YeSkcHTAAS2K2S3f)** kanalındaki eğitim sürecim kapsamında geliştirilmiştir.  
 
 ## 🚀 Teknolojiler  
 
@@ -18,4 +20,4 @@ Bu proje aşağıdaki teknolojiler kullanılarak geliştirilmiştir:
 
 ## 📸 Ekran Görüntüleri  
 
-> Buraya proje tamamlandıkça ekran görüntüleri eklenecek.  
+> Buraya proje tamamlandıkça ekran görüntüleri eklenecektir.  
