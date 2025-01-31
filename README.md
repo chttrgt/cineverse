@@ -20,4 +20,4 @@ Bu proje aşağıdaki teknolojiler kullanılarak geliştirilmiştir:
 
 ## 📸 Ekran Görüntüleri  
 
-> Buraya proje tamamlandıkça ekran görüntüleri eklenecektir.  
+![The Dark Night](/public/banners/batman.png)  
