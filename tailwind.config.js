@@ -21,6 +21,7 @@ module.exports = {
         "cineverse-pencil-black": "#27272C",
         "cineverse-red": "#BC1A45",
         "cineverse-melon": "#FFD369",
+        "cineverse-dark-melon": "#cfab55",
         "cineverse-grey": "#DDDDDD",
         "cineverse-white": "#F7F7F7",
         "cineverse-light-blue": "#45aaf2",
